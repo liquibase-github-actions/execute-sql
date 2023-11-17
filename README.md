@@ -6,7 +6,7 @@ Execute a SQL string or file
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/execute-sql@v4.24.0
+- uses: liquibase-github-actions/execute-sql@v4.25.0
   with:
     # The JDBC database connection URL
     # string
@@ -70,7 +70,7 @@ The liquibase execute sql action accepts all valid liquibase global options as o
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/execute-sql@v4.24.0
+  - uses: liquibase-github-actions/execute-sql@v4.25.0
     with:
       url: ""
       headless: true
